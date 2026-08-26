@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="360" viewBox="0 0 1480 360" role="img" aria-label="Mohammed Rashique Shuraim  Applied AI Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070B12"/>
+      <stop offset="100%" stop-color="#0E1624"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38D8F0"/>
+      <stop offset="100%" stop-color="#C9A227"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1A2740" stroke-width="0.6"/>
+    </pattern>
+  </defs>
+  <rect width="1480" height="360" fill="url(#bg)"/>
+  <rect width="1480" height="360" fill="url(#grid)" opacity="0.45"/>
+  <rect x="36" y="36" width="1408" height="288" fill="none" stroke="#243044" stroke-width="1"/>
+  <path d="M36 56h18M36 36v20M1444 56h-18M1444 36v20M36 304h18M36 324v-20M1444 304h-18M1444 324v-20" stroke="#38D8F0" stroke-width="2" fill="none"/>
+  <rect x="64" y="168" width="72" height="3" fill="url(#accent)"/>
+  <text x="64" y="92" fill="#64748B" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" letter-spacing="4">APPLIED AI ENGINEER</text>
+  <text x="64" y="152" fill="#F8FAFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700">Mohammed Rashique Shuraim</text>
+  <text x="64" y="214" fill="#94A3B8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20">I design production AI systems  RAG, voice, and agents that stay grounded in source data.</text>
+  <text x="64" y="268" fill="#64748B" font-family="Consolas, ui-monospace, monospace" font-size="14">github.com/MohammedShuraim  ·  VIT Chennai  ·  Python · TypeScript · AWS</text>
+</svg>
