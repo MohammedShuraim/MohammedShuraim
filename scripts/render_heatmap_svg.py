@@ -4,10 +4,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
-PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
-BG = "#0d1117"
-FG = "#c9d1d9"
-MUTED = "#8b949e"
+PALETTE = ["#141820", "#1A2333", "#0E4A55", "#38D8F0", "#D4AF6A"]
+BG = "#070A12"
+FG = "#E8ECF4"
+MUTED = "#8B93A7"
 FONT = "monospace"
 
 BOX = 13
@@ -61,7 +61,7 @@ def main():
     svg = []
     svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">')
     svg.append(f'<rect width="100%" height="100%" rx="12" fill="{BG}"/>')
-    svg.append(f'<rect width="100%" height="100%" rx="12" fill="none" stroke="#30363d" stroke-width="1"/>')
+    svg.append(f'<rect width="100%" height="100%" rx="12" fill="none" stroke="#D4AF6A" stroke-width="1" opacity="0.35"/>')
     
     total = data.get("total_contributions", 0)
     svg.append(f'<text x="{MARGIN_LEFT}" y="25" font-family="{FONT}" font-size="14" fill="{FG}" font-weight="bold">{total:,} contributions in the last year</text>')
